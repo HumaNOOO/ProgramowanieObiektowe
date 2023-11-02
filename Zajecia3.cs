@@ -342,7 +342,6 @@ namespace Zajecia3
 
             for(int i=0; i< ids.Length; i++)
             {
-                String[] split = ids[i].Split('-');
                 Console.WriteLine("indentyfikator: {0}, lat od zakupu: {1}", ids[i], 2023 - Convert.ToInt32(ids[i].Split('-')[1]));
             }
         }
